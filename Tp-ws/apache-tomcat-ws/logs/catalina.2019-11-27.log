@@ -1,0 +1,48 @@
+27-Nov-2019 02:23:25.942 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:        Apache Tomcat/8.5.47
+27-Nov-2019 02:23:25.943 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé:       Oct 7 2019 13:30:46 UTC
+27-Nov-2019 02:23:25.943 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur:      8.5.47.0
+27-Nov-2019 02:23:25.943 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS:           Linux
+27-Nov-2019 02:23:25.943 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de l'OS:        4.15.0-66-generic
+27-Nov-2019 02:23:25.943 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2019 02:23:25.943 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Répertoire de Java:     /home/hagimont/install/jdk1.8.0_221/jre
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Version de la JVM:           1.8.0_221-b11
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM:            Oracle Corporation
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/hagimont/install/apache-tomcat-8.5.47
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/hagimont/install/apache-tomcat-8.5.47
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.config.file=/home/hagimont/install/apache-tomcat-8.5.47/conf/logging.properties
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Nov-2019 02:23:25.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dignore.endorsed.dirs=
+27-Nov-2019 02:23:25.946 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.base=/home/hagimont/install/apache-tomcat-8.5.47
+27-Nov-2019 02:23:25.947 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Dcatalina.home=/home/hagimont/install/apache-tomcat-8.5.47
+27-Nov-2019 02:23:25.947 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande: -Djava.io.tmpdir=/home/hagimont/install/apache-tomcat-8.5.47/temp
+27-Nov-2019 02:23:25.947 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Nov-2019 02:23:26.025 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+27-Nov-2019 02:23:26.034 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Nov-2019 02:23:26.045 INFOS [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["ajp-nio-8009"]
+27-Nov-2019 02:23:26.047 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Nov-2019 02:23:26.047 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 332 ms
+27-Nov-2019 02:23:26.070 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+27-Nov-2019 02:23:26.071 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+27-Nov-2019 02:23:26.084 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/install/apache-tomcat-8.5.47/webapps/WS.war] de l'application web
+27-Nov-2019 02:23:26.417 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+27-Nov-2019 02:23:26.520 AVERTISSEMENT [localhost-startStop-1] org.apache.axis.utils.JavaUtils.isAttachmentSupported Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+27-Nov-2019 02:23:26.586 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/WS.war] s'est terminé en [501] ms
+27-Nov-2019 02:23:26.586 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/home/hagimont/install/apache-tomcat-8.5.47/webapps/web.war] de l'application web
+27-Nov-2019 02:23:26.663 INFOS [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars Au moins un fichier JAR a été analysé pour trouver des TLDs mais il n'en contenait pas, le mode "debug" du journal peut être activé pour obtenir une liste complète de JAR scannés sans succès; éviter d'analyser des JARs inutilement peut améliorer sensiblement le temps de démarrage et le temps de compilation des JSPs
+27-Nov-2019 02:23:26.665 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/web.war] s'est terminé en [79] ms
+27-Nov-2019 02:23:26.665 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/docs]
+27-Nov-2019 02:23:26.673 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/install/apache-tomcat-8.5.47/webapps/docs] de l'application web s'est terminé en [8] ms
+27-Nov-2019 02:23:26.673 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/manager]
+27-Nov-2019 02:23:26.688 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/install/apache-tomcat-8.5.47/webapps/manager] de l'application web s'est terminé en [15] ms
+27-Nov-2019 02:23:26.688 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/host-manager]
+27-Nov-2019 02:23:26.710 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/install/apache-tomcat-8.5.47/webapps/host-manager] de l'application web s'est terminé en [22] ms
+27-Nov-2019 02:23:26.711 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/examples]
+27-Nov-2019 02:23:26.820 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/install/apache-tomcat-8.5.47/webapps/examples] de l'application web s'est terminé en [109] ms
+27-Nov-2019 02:23:26.821 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [/home/hagimont/install/apache-tomcat-8.5.47/webapps/ROOT]
+27-Nov-2019 02:23:26.828 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [/home/hagimont/install/apache-tomcat-8.5.47/webapps/ROOT] de l'application web s'est terminé en [7] ms
+27-Nov-2019 02:23:26.830 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+27-Nov-2019 02:23:26.837 INFOS [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["ajp-nio-8009"]
+27-Nov-2019 02:23:26.856 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 808 ms
